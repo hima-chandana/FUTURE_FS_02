@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-slate-dark: #0f172a;
+  --color-slate-card: #1e293b;
+  --color-electric-blue: #3b82f6;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-dark text-white font-sans antialiased;
+  }
+}
